@@ -1,0 +1,21 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 4%;
+  height: 80px; /* or your current fixed height */
+  background-color: #fff; /* or your preferred color */
+}
+
+.logo {
+  height: 100%;         /* Take up full navbar height */
+  width: auto;          /* Maintain aspect ratio */
+  min-height: 160px;     /* Prevent overflow if image is too large */
+}
+
+.profile {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  object-fit: cover;
+}
